@@ -19,4 +19,9 @@ Branching
 - Use a branch to avoid messing up someone else's work
 - Create a branch with `git checkout -b branchname`
 - Switch to an already existing branch with `git checkout branchname`
-- Merge branches on the Github website (optional)
+
+Updating your branch with work done in master
+- Checkout to your branch (`git checkout branchname`)
+- Ensure your branch is updated (`git fetch --all` and `git pull`)
+- Merge files from master into your branch: `git merge origin/master`
+- Can work with other branches as well, simply replace `origin/master` with `origin/branchname`

@@ -9,6 +9,8 @@ Basic commands:
 - Use `git status` to see what files you are staging for commit
 - `git commit -m "a message"` commits all files added with `git add`, and adds a message so you know what you are committing
 - `git push -u origin branchname` pushes all files to remote that you committed with `git commit`. Your progress is now backed up! Remember to be on the branch called branchname
+- `git fetch --all` grabs all data from remote so you can work on updated files
+- `git pull` merges data into your branch after doing `git fetch` (do both BEFORE doing work if there were updates on your branch!)
 
 Any files you never want pushed to remote?
 - Put their filepath into the `.gitignore` file
